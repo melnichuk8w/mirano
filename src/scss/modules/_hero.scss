@@ -1,4 +1,4 @@
-@use '../variables' as *;
+@use '../varibles' as *;
 
 .hero {
     padding: 60px 0;
@@ -8,6 +8,7 @@
     }
 
     &__title {
+        
         font-family: $second-family;
         font-weight: 400;
         font-size: clamp(
@@ -51,12 +52,10 @@
     }
 
     &__image_center {
-        width: calc(284 / 1300 * 100%);
+        width: calc(680 / 1300 * 100%);
     }
 
     &__image_right {
         border-radius: 400px 0 400px 400px;
     }
-}
-.container {
 }
