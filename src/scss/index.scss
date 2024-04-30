@@ -1,5 +1,7 @@
-@use "base";
-@use "fonts";
-@use "./modules/header.scss";
+@use "../scss/base";
+@use "../scss/fonts";
+@use "./modules/header";
+@use "./modules/hero";
+
 
 @import "normalize.css";
